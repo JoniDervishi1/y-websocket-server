@@ -1,6 +1,6 @@
 {
-  "name": "@y/websocket-server",
-  "version": "0.1.1",
+  "name": "y-websocket-server-pncounter",
+  "version": "1.0.0",
   "description": "Backend for y-websocket",
   "type": "module",
   "sideEffects": false,
@@ -58,7 +58,7 @@
     ]
   },
   "dependencies": {
-    "@y/protocols": "^1.0.6-1",
+    "y-protocols-pncounter": "^1.0.5",
     "lib0": "^0.2.102"
   },
   "devDependencies": {
@@ -67,11 +67,10 @@
     "rollup": "^4.39.0",
     "standard": "^17.1.2",
     "typescript": "^5.8.3",
-    "ws": "^6.2.1",
-    "yjs": "^14.0.0-7"
+    "ws": "^6.2.1"
   },
   "peerDependencies": {
-    "yjs": "^14.0.0-7"
+    "yjs-ypcounter": "^1.0.0"
   },
   "engines": {
     "npm": ">=8.0.0",

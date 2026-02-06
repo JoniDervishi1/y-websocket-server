@@ -1,6 +1,6 @@
-import * as Y from 'yjs'
-import * as syncProtocol from '@y/protocols/sync'
-import * as awarenessProtocol from '@y/protocols/awareness'
+import * as Y from 'yjs-ypcounter'
+import * as syncProtocol from 'y-protocols-pncounter/sync'
+import * as awarenessProtocol from 'y-protocols-pncounter/awareness'
 
 import * as encoding from 'lib0/encoding'
 import * as decoding from 'lib0/decoding'
